@@ -61,7 +61,7 @@ export default function Form(props) {
 
   return (
     <div>
-      <StyledH2>Add a Player:</StyledH2>
+      <StyledH2>Add/edit a Player:</StyledH2>
       <StyledForm onSubmit={handleSubmit}>
         <label htmlFor='name'>Name:</label>
         <input 
